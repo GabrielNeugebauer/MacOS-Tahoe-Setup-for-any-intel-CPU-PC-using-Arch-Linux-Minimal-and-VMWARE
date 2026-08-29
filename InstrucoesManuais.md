@@ -24,7 +24,7 @@ Dentro da sessão do seu usuário, a aceleração gráfica estará desativada. P
     2. O instalador irá falhar inicialmente. Nas configurações do macOS, dê a autorização para o VMWare iniciar em segundo plano e instale novamente. [cite: 2]
 
 ## 4. Patches do OpenCore (config.plist)
-Adicione os seguintes códigos XML no arquivo `OPENCORE/EFI/config.plist` (DENTRO DO MACOS).
+Adicione os seguintes códigos XML no arquivo `OPENCORE/EFI/OC/config.plist` (DENTRO DO MACOS).
 
 ### Patches do iCloud
 Adicione os dois dicionários logo abaixo do dict com.apple.driver.AppleACPIPlatform:
