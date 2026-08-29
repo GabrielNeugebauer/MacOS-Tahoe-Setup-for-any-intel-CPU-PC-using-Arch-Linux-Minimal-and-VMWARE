@@ -3,7 +3,7 @@
 Este documento detalha os passos manuais que não puderam ser automatizados e devem ser executados **após** a execução do script `AutoSetup.sh` e o reinício do sistema.
 
 ## 1. Configuração da Máquina Virtual (Host)
-*   Abra o arquivo `.vmx` da sua máquina virtual.
+*   Abra o arquivo `~/OC4VM_Setup/vmware/intel/macos.vmx` da sua máquina virtual.
 *   **Configure Núcleos e Threads:** Caso esteja na VM Arch dedicada como indicado, você pode dedicar 2 processadores, com 4 núcleos cada.
 *   **Mapeamento de Disco:** Adicione o arquivo `tahoe.vmdx` no mapeamento da máquina virtual.
 
